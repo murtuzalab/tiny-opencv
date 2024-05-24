@@ -2,7 +2,7 @@
 
 This is a fork of the opencv/opencv:4.x. branch. 
 
-To build a tiny version of opencv with:
+To build a tiny version of opencv world ~8.2MB (for x64, original: 65.5 MB) with:
 * core
 * highgui
 * imgcodecs
