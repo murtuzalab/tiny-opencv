@@ -1,5 +1,56 @@
 ## OpenCV: Open Source Computer Vision Library
 
+This is a fork of the opencv/opencv:4.x. branch. 
+
+To build a tiny version of opencv with:
+* core
+* highgui
+* imgcodecs
+* imgproc
+* world
+
+Use the below cmake options:
+
+```
+BUILD_JPEG=ON
+BUILD_OPENEXR=ON
+BUILD_OPENEXR=ON
+BUILD_OPENJPEG=ON
+BUILD_PACKAGE=ON
+BUILD_PNG=ON
+BUILD_SHARED_LIBS=ON
+BUILD_ZLIB=ON
+BUILD_opencv_core=ON
+BUILD_opencv_highgui=ON
+BUILD_opencv_imgcodecs=ON
+BUILD_opencv_imgproc=ON
+BUILD_opencv_world=ON
+ENABLE_SOLUTION_FOLDERS=ON
+INSTALL_PDB=ON
+INSTALL_PDB_COMPONENT_EXCLUDE_FROM_ALL=ON
+OPENCV_ENABLE_ALLOCATOR_STATS=ON
+OPENCV_ENABLE_ATOMIC_LONG_LONG=ON
+OPENCV_ENABLE_MEMALIGN=ON
+OPENCV_GENERATE_SETUPVARS=ON
+OPJ_USE_THREAD=ON
+WITH_JASPER=ON
+WITH_JPEG=ON
+WITH_OPENEXR=ON
+WITH_OPENJPEG=ON
+WITH_PNG=ON
+WITH_PROTOBUF=ON
+WITH_TIFF=ON
+WITH_WEBP=ON
+ccitt=ON
+logluv=ON
+lzw=ON
+mdi=ON
+next=ON
+packbits=ON
+thunder=ON
+```
+
+
 
 ### Resources
 
